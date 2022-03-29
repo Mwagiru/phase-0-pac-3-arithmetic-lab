@@ -25,7 +25,7 @@ decrement(6);
 function makeInt(number){
     return parseInt(number);
 }
-makeInt("0" , 10);
+makeInt("t", 10);
 function preserveDecimal(number){
     return parseFloat(number);
 }
