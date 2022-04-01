@@ -22,8 +22,8 @@ function decrement(number) {
     return --number;
 }
 decrement(6);
-function makeInt(number){
-    return parseInt(number);
+function makeInt(string){
+    return parseInt(string, 10);
 }
 makeInt("t", 10);
 function preserveDecimal(number){
